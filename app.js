@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 8080;
 
 app.get('/', (req, res) => {
-  res.send('Hello from Render! Version 1.0');
+  res.send('Test1 - CI/CD работает!');
 });
 
 app.listen(port, () => {
